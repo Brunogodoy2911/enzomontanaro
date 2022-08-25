@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(232,68,23,1) 69%, rgba(252,176,69,1) 100%);;
+    }
+
+   .menu{  
+          width:  100%;
+           height: 60px;
+           background-color: #414146;
+           float:left;
+           z-index:9999;
+         
+          }
+
+    .center{ 
+           width: 100%;
+           height: 60px;
+           margin: 0px auto;
+           }
+    .center ul{
+         width:100%;     
+         height:60px;
+         list-style: none;  
+         float:left;
+         margin: 0px auto;
+      }
+
+    .center ul li{ 
+       width:79px;       
+       padding: 22px 35px;
+       list-style: none;  
+       float:left;
+       text-align:center;
+       color:#fff;
+       font-family: 'OswaldLight', Arial,sans-serif;
+       font-size: 13px;
+    }
+
+    .center ul li:first-child  
+    {  
+      background-color:black;
+      color: #414146; 
+      border-right: 1px solid #414146;
+    }
+         
+   .center ul li:hover
+   { 
+     background-color:#ffea00;
+     transition: all 0.4s; 
+     color: #414146; 
+     cursor: pointer; 
+   }
+   .center ul li a{
+   text-decoration:none;
+   color:white;
+
+   }
+   
+   .fundo{
+    background-image: url(img/babrinho.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+   }
+.fundo:hover{
+    background-position: bottom center;
+}
+h2{
+  padding-top: 20px;
+  text-align: center;
+  margin: 20px;
+}
